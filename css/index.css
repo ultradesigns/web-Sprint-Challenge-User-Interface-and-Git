@@ -116,12 +116,25 @@ header nav a {
     text-decoration: none;
 }
 
+/*hero image text*/
+
+.imageText{
+    margin: 10px 0 10px 0;
+    border-bottom: 1px dashed black;
+}
+
+.imageText p{
+    padding: 10px;
+}
+
 /*img div Flex*/
 
 .imgDivFlex{
     display: flex;
     flex-direction: column;
     align-content: space-between;
+    border-bottom: 1px dashed black;
+    margin: 20px;
     width: 45%;
 
 }
@@ -129,10 +142,11 @@ header nav a {
 /*button*/
 
 .buttons {
+    margin: 10px 10px 15px 0px;
     width: 125px;
     border: 0;
     line-height: 2.5;
-    padding: 0 20px;
+    padding: 0 10px;
     font-size: 1rem;
     text-align: center;
     color: #fff;
@@ -187,13 +201,16 @@ header nav a {
 
 .image-content{
     margin-bottom: 20px;
-    border-bottom: 1px dashed black;
+    /*border-bottom: 1px dashed black;*/
+    align-content: space-between;
 }
 
 .image-content .imgBox{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    /*align-items: center;*/
+    
 }
 
 
@@ -236,6 +253,12 @@ header nav a {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+/*paragraph before footer*/
+
+.lastSection{
+    margin: 10px 0 10px 0;
 }
 
 footer {
