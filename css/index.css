@@ -93,7 +93,7 @@ p {
 /*Header Styles*/
 .headerFlex{
     display: flex;
-    padding: 
+    padding: 1px;
 }
 
 .headerImage{
@@ -121,7 +121,7 @@ header nav a {
 .imgDivFlex{
     display: flex;
     flex-direction: column;
-    alien-content: space-between;
+    align-content: space-between;
     width: 45%;
 
 }
@@ -139,10 +139,11 @@ header nav a {
     text-shadow: 1px 1px 1px #000;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 1);
+    }
 
-/*boxes*/
+/*box colors*/
 
- #box1{
+#box1{
     background-color: teal;
 }
 
@@ -182,6 +183,18 @@ header nav a {
     background-color:dodgerblue;
 }
 
+/*image-content about.html*/
+
+.image-content{
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.image-content .imgBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 
 
 .middle-content {
