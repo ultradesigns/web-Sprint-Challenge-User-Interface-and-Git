@@ -131,7 +131,7 @@ header nav a {
 
 .imgDivFlex{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;/*applying flex-direction to manipulate the img div with flexbox*/
     align-content: space-between;
     border-bottom: 1px dashed black;
     margin: 20px;
